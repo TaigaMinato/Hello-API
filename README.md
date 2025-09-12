@@ -1,5 +1,5 @@
 # Hello API
-This is a practice project to laern development flow (GitHub Flow, CI/CD and deployment). 
+This is a practice project to learn development flow (GitHub Flow, CI/CD and deployment). 
 
 ## How to run
 ```bash
