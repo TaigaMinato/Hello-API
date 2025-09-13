@@ -26,3 +26,7 @@ jobs:
         - name: Run ruff lint
           run: |
             ruff check .
+
+        - name: Run tests
+          run: |
+            PYTHONPATH=. pytest
