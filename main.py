@@ -4,5 +4,5 @@ app = FastAPI()
 
 
 @app.get("/hello")
-def read_hello():
-    return {"message": "Hello, World!"}
+def hello(name: str = "World"):
+    return {"message": f"Hello, {name}!"}
